@@ -1,0 +1,41 @@
+
+body { 
+    background-color: beige;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header { font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    background: #6a7a88;
+  color: #fff;
+  float: inline-end;
+}
+a {
+    float: wrap;
+    flex-wrap: left;
+}
+img {
+    max-width: 10%;
+    height: auto;
+}
+}
+h1 {
+    float: left;
+    margin: 5px;
+    padding: 20px;
+}
+
+aside {
+    font-size: 40px;
+    flex: 1;
+}
+
+.card {
+    flex: 30%;
+}
+
+footer {
+    text-align: center;
+    font-size: 25pt;
+}
