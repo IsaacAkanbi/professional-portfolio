@@ -9,33 +9,44 @@ header { font-size: 30px;
     font-style: normal;
     background: #6a7a88;
   color: #fff;
-  float: inline-end;
-}
+  float: inline; }
+
 a {
     float: wrap;
-    flex-wrap: left;
-}
+    flex-wrap: left; }
 img {
     max-width: 10%;
-    height: auto;
-}
-}
+    height: auto; }
 h1 {
     float: left;
     margin: 5px;
-    padding: 20px;
-}
+    padding: 20px;}
 
 aside {
     font-size: 40px;
     flex: 1;
-}
-
-.card {
-    flex: 30%;
-}
+    font-size: 20px;
+    background-color: aquamarine;
+    padding: 20px;
+    }
 
 footer {
     text-align: center;
-    font-size: 25pt;
-}
+    font-size: 25pt; }
+
+@media screen and (max-width: 768px) {
+        main,
+        nav {
+          flex-direction: column;
+        }
+        aside {
+          order: 2;
+        }
+                header {
+          background: #772014;
+        }
+        nav,
+        footer {
+          background-color: #bb8588;
+        }
+      }
